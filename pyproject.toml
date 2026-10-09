@@ -1,8 +1,8 @@
 # --> Project
 [project]
-name = "YOUR-PACKAGE-NAME"
+name = "mpxnk-logging"
 version = "1.0.0"
-description = "LIB_DESCRIPTION"
+description = "mpxnk-logging"
 license = { text = "MIT" }
 requires-python = ">=3.10"
 readme = "README.md"
@@ -13,11 +13,11 @@ classifiers = [
     "License :: OSI Approved :: MIT License",
     "Operating System :: OS Independent",
 ]
-urls = { github = "https://github.com/meowthpxnk/YOUR-PACKAGE-NAME", changelog = "https://github.com/meowthpxnk/YOUR-PACKAGE-NAME/blob/main/CHANGELOG.md" }
+urls = { github = "https://github.com/meowthpxnk/mpxnk-logging", changelog = "https://github.com/meowthpxnk/mpxnk-logging/blob/main/CHANGELOG.md" }
 
 # --> Poetry
 [tool.poetry]
-packages = [{ include = "YOUR_PACKAGE_NAME" }]
+packages = [{ include = "mpxnk_logging" }]
 
 # =============================================================================
 # 🧩 Development Dependencies (dev-only)
@@ -92,7 +92,7 @@ unfixable = []
 
 # Import sorting (isort-style)
 [tool.ruff.lint.isort]
-known-first-party = ["YOUR_PACKAGE_NAME"] # ← Replace with your actual package name
+known-first-party = ["mpxnk_logging"] # ← Replace with your actual package name
 
 # --> Tests
 # =============================================================================
